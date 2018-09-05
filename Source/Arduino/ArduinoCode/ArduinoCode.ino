@@ -56,14 +56,14 @@ void Bluetooth(){
    }
       //Serial.print(data);          //Print Value inside data in Serial monitor
       //Serial.print("\n");        
-      if(data == '6'){
+      if(data == '1'){
           myservo.write(60);
           Serial.println("60");
         }
       if(data == '2'){
           myservo.write(120);
         }
-      if(data == '8'){
+      if(data == '3'){
           myservo.write(180);
         }
          
